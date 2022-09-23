@@ -1,0 +1,149 @@
+body {
+    color: #ffffff;
+    display: flex;
+    font-family: 'Lexend Deca';
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+div {
+    height: 25rem;
+    padding: 3rem;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    margin-top: 0%;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+.flex-container {
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 55rem;
+    line-height: 2.5;
+    overflow: hidden;
+}
+
+.item-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.item-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.item-3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+a {
+    background: #ffffff;
+    border: unset;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    text-decoration: none;
+    margin-top: 30rem;
+  }
+
+  a:hover {
+    border: solid #ffffff 2px;
+  }
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #ffffff;
+}
+
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #ffffff;
+}
+
+.btn-3 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #ffffff;
+}
+
+@media (max-width: 49.6875rem) {
+    body {
+        padding: 0%;
+    }
+
+    a {
+        padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+        font-size: 0.7rem;
+    }
+
+    div {
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin-bottom: 4rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .flex-container {
+        width: 45rem;
+    }
+}
+
+@media (max-width: 23.4375rem) {
+    body {
+        padding: 0%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    div {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    a {
+        padding: 1rem 2.2rem 1rem 2.2rem;
+    }
+}
+
